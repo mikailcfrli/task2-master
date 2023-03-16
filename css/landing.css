@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: #232536;
+}
+header .logo {
+  width: 122px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+header .navbar .navigation {
+  width: 698px;
+  display: flex;
+  justify-content: space-between;
+}
+header .navbar .navigation a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero-section {
+  background-color: #232536;
+}
+.hero-section .hero-box {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-section .hero-box .leftbox {
+  width: 624px;
+  border: 2px solid black;
+}
+.hero-section .hero-box .leftbox .leftup {
+  padding-top: 56px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.hero-section .hero-box .leftbox .leftup p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.hero-section .hero-box .leftbox .leftup h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 68px;
+  color: #ffffff;
+}
+.hero-section .hero-box .leftbox .leftup .graybox {
+  width: 24px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.06);
+}/*# sourceMappingURL=landing.css.map */
