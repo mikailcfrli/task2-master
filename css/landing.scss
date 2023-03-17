@@ -1,6 +1,7 @@
 @import "common";
 header {
   background-color: $backgroud-hero;
+  border: 1px solid rgba(255, 255, 255, 0.05);
   .logo {
     width: 122px;
   }
@@ -22,6 +23,11 @@ header {
         font-size: 16px;
         line-height: 24px;
       }
+      div {
+        a {
+          color: #ffd3af;
+        }
+      }
     }
   }
 }
@@ -33,12 +39,33 @@ header {
     justify-content: space-between;
     .leftbox {
       width: 624px;
-      border: 2px solid black;
+      .frstbutton {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        opacity: 0.87;
+        background-color: $backgroud-blue;
+        padding: 20px 32px;
+        margin-top: 32px;
+        position: relative;
+        border: $backgroud-blue;
+        .cornersvg {
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+        .icon {
+          padding-left: 9px;
+        }
+      }
       .leftup {
         padding-top: 56px;
         display: flex;
-        justify-content: space-between;
         flex-direction: column;
+        gap: 10px;
         p {
           font-family: $main-font;
           font-style: normal;
@@ -62,6 +89,27 @@ header {
           background: rgba(255, 255, 255, 0.06);
         }
       }
+    }
+    .heroimgbox {
+      position: relative;
+      width: 563px;
+      display: flex;
+      .frstimg {
+        position: relative;
+        padding-left: 16px;
+
+      }
+      .shapes2 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+      .shapes1 {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
     }
   }
 }

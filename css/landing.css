@@ -12,6 +12,7 @@
 
 header {
   background-color: #232536;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 header .logo {
   width: 122px;
@@ -36,6 +37,9 @@ header .navbar .navigation a {
   font-size: 16px;
   line-height: 24px;
 }
+header .navbar .navigation div a {
+  color: #ffd3af;
+}
 
 .hero-section {
   background-color: #232536;
@@ -47,13 +51,34 @@ header .navbar .navigation a {
 }
 .hero-section .hero-box .leftbox {
   width: 624px;
-  border: 2px solid black;
+}
+.hero-section .hero-box .leftbox .frstbutton {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.87;
+  background-color: #444CFC;
+  padding: 20px 32px;
+  margin-top: 32px;
+  position: relative;
+  border: #444CFC;
+}
+.hero-section .hero-box .leftbox .frstbutton .cornersvg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.hero-section .hero-box .leftbox .frstbutton .icon {
+  padding-left: 9px;
 }
 .hero-section .hero-box .leftbox .leftup {
   padding-top: 56px;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  gap: 10px;
 }
 .hero-section .hero-box .leftbox .leftup p {
   font-family: "Poppins", sans-serif;
@@ -76,4 +101,23 @@ header .navbar .navigation a {
   width: 24px;
   height: 24px;
   background: rgba(255, 255, 255, 0.06);
+}
+.hero-section .hero-box .heroimgbox {
+  position: relative;
+  width: 563px;
+  display: flex;
+}
+.hero-section .hero-box .heroimgbox .frstimg {
+  position: relative;
+  padding-left: 16px;
+}
+.hero-section .hero-box .heroimgbox .shapes2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.hero-section .hero-box .heroimgbox .shapes1 {
+  position: absolute;
+  right: 0;
+  top: 0;
 }/*# sourceMappingURL=landing.css.map */
