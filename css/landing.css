@@ -24,18 +24,20 @@ header .navbar {
   padding-bottom: 28px;
 }
 header .navbar .navigation {
-  width: 698px;
   display: flex;
   justify-content: space-between;
+  gap: 32px;
 }
 header .navbar .navigation a {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
-  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+}
+header .navbar .navigation a:hover {
+  color: #ffffff;
 }
 header .navbar .navigation div a {
   color: #ffd3af;
@@ -120,4 +122,114 @@ header .navbar .navigation div a {
   position: absolute;
   right: 0;
   top: 0;
+}
+.hero-section .clients-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  padding-bottom: 32px;
+}
+.hero-section .clients-box .clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+}
+.hero-section .clients-box .clients div:first-child {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  vertical-align: middle;
+}
+.hero-section .clients-box .clients div:last-child {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.about-section {
+  margin-top: 120px;
+}
+.about-section .about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-bottom: 98px;
+}
+.about-section .about-us .up-text h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+}
+.about-section .about-us .up-text h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #232536;
+  margin-bottom: 16px;
+}
+.about-section .about-us .up-text p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5d5f6d;
+}
+.about-section .about-us .up-text .bout {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8705882353);
+  margin-bottom: 16px;
+}
+
+.flex-spacebetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience .gap {
+  gap: 66px;
+}
+.experience h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #232536;
+}
+.experience p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.experience a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(68, 76, 252, 0.8705882353);
+  text-decoration: none;
 }/*# sourceMappingURL=landing.css.map */

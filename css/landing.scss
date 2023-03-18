@@ -11,17 +11,19 @@ header {
     padding-top: 28px;
     padding-bottom: 28px;
     .navigation {
-      width: 698px;
       display: flex;
       justify-content: space-between;
+      gap: 32px;
       & a {
         text-decoration: none;
         font-family: $main-font;
-        color: $backgroud-white;
-        opacity: 0.6;
+        color: #ffffff99;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
+        &:hover {
+          color: #ffffff;
+        }
       }
       div {
         a {
@@ -97,7 +99,6 @@ header {
       .frstimg {
         position: relative;
         padding-left: 16px;
-
       }
       .shapes2 {
         position: absolute;
@@ -109,7 +110,117 @@ header {
         right: 0;
         top: 0;
       }
-      
     }
+  }
+  .clients-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding-bottom: 32px;
+    .clients {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2px;
+      div:first-child {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ffffff99;
+        vertical-align: middle;
+      }
+      div:last-child {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+.about-section {
+  margin-top: 120px;
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-bottom: 98px;
+    .up-text {
+      h2 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: $backgroud-hero;
+      }
+      h3 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        color: $backgroud-hero;
+        margin-bottom: 16px;
+      }
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #5d5f6d;
+      }
+      .bout {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #000000de;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
+.flex-spacebetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.experience {
+  .gap {
+    gap:  66px;
+  }
+  h3 {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: $backgroud-hero;
+  }
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+  a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444cfcde;
+    text-decoration: none;
   }
 }
