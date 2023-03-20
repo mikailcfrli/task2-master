@@ -41,33 +41,12 @@ header {
     justify-content: space-between;
     .leftbox {
       width: 624px;
-      .frstbutton {
-        font-family: $main-font;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        color: #ffffff;
-        opacity: 0.87;
-        background-color: $backgroud-blue;
-        padding: 20px 32px;
-        margin-top: 32px;
-        position: relative;
-        border: $backgroud-blue;
-        .cornersvg {
-          position: absolute;
-          left: 0;
-          top: 0;
-        }
-        .icon {
-          padding-left: 9px;
-        }
-      }
       .leftup {
         padding-top: 56px;
         display: flex;
         flex-direction: column;
         gap: 10px;
+        margin-bottom: 32px;
         p {
           font-family: $main-font;
           font-style: normal;
@@ -196,7 +175,7 @@ header {
 }
 .experience {
   .gap {
-    gap:  66px;
+    gap: 66px;
   }
   h3 {
     font-family: $main-font;
@@ -222,5 +201,177 @@ header {
     line-height: 24px;
     color: #444cfcde;
     text-decoration: none;
+  }
+}
+.expertise-section {
+  background-color: $backgroud-softblue;
+
+  .expertise {
+    display: flex;
+    justify-content: space-between;
+    gap: 141px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    .left-differences {
+      padding-bottom: 58px;
+      padding-top: 46px;
+    }
+    .right-differences {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .difference {
+      background-color: #ffffff;
+      width: 515px;
+      position: relative;
+      img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      img.circles {
+        position: absolute;
+        left: 32px;
+        top: 32px;
+      }
+      .margpad {
+        padding: 32px 117px 32px 95px;
+      }
+      h6 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        margin-bottom: 8px;
+      }
+      .smallp {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #5d5f6d;
+      }
+    }
+  }
+  .bout {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000de;
+    margin-bottom: 16px;
+  }
+  h2 {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: $backgroud-hero;
+    margin-bottom: 24px;
+  }
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5d5f6d;
+  }
+}
+.brown {
+  background-color: $backgroud-brown;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  .services-header {
+    width: 777px;
+    p {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #000000;
+      opacity: 0.87;
+      margin-bottom: 12px;
+    }
+    h2 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 58px;
+      color: #232536;
+      margin-bottom: 40px;
+    }
+  }
+  .raw-boxes {
+    gap: 32px;
+    margin-top: 80px;
+    div {
+      background-color: #ffffff;
+      padding: 48px 31px 44px 48px;
+      .icons {
+        margin-bottom: 16px;
+      }
+      h6 {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #000000;
+        margin-bottom: 8px;
+      }
+    }
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #5d5f6d;
+      margin-bottom: 24px;
+    }
+    a {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #444cfc;
+      opacity: 0.87;
+      text-decoration: none;
+    }
+  }
+}
+button {
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.87;
+  background-color: $backgroud-blue;
+  padding: 20px 32px;
+  position: relative;
+  border: $backgroud-blue;
+  .cornersvg {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .icon {
+    padding-left: 9px;
   }
 }
