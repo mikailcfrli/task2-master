@@ -1,0 +1,182 @@
+@import "common";
+.hero-section {
+  display: flex;
+  justify-content: center;
+  .hero-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    width: 31.5%;
+    .ceo-pic {
+      margin-bottom: 48px;
+    }
+    h3 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 54px;
+      color: $backgroud-hero;
+      margin-bottom: 8px;
+    }
+    .p-small {
+      padding-bottom: 24px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #232536b3;
+    }
+    p {
+      padding-bottom: 32px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #232536;
+      opacity: 0.87;
+    }
+    .socials {
+      display: flex;
+      gap: 26.67px;
+    }
+  }
+}
+.blog-section {
+  background-color: $backgroud-softblue;
+  .blog {
+    padding: 96px 0;
+    img.blueicon {
+        margin-bottom: 19px;
+    }
+    h2 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 58px;
+      color: $backgroud-hero;
+      margin-bottom: 48px;
+    }
+    .blogs {
+      display: flex;
+      gap: 32px;
+      .blog-overview {
+        display: flex;
+        .rightpart-blog {
+          background-color: white;
+          padding: 32px;
+          div {
+            p {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 20px;
+              color: #232536;
+              opacity: 0.6;
+              margin-bottom: 8px;
+            }
+            h4 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 36px;
+              color: #232536;
+              margin-bottom: 24px;
+            }
+            a {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #444cfc;
+              opacity: 0.87;
+              text-decoration: none;
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+    .leftpart {
+      padding-bottom: 64px;
+      padding-top: 96px;
+      img {
+        margin-bottom: 32px;
+      }
+      h2 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: #232536;
+        margin-bottom: 40px;
+        width: 453px;
+      }
+      h4 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #232536;
+        margin-bottom: 28px;
+      }
+      p.plarge {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #232536;
+      }
+      p.psmall {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #232536;
+        margin-top: 16px;
+        width: 206px;
+      }
+      div.aline {
+        width: 268px;
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        margin-top: 14px;
+      }
+    }
+  }
+  .pink-footer {
+    background-color: $backgroud-brown;
+  
+    .bottom-logos {
+      padding-top: 28px;
+      padding-bottom: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 42px;
+  }
+    .socials {
+      display: flex;
+      gap: 26.68px;
+    }
+  }
+  .flex-spacebetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

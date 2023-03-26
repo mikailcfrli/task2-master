@@ -480,8 +480,69 @@ button .icon {
   padding-right: 11px;
 }
 
+.blog-section {
+  background-color: #ECF8F9;
+}
+.blog-section .blog {
+  padding: 96px 0;
+}
+.blog-section .blog img.blueicon {
+  margin-bottom: 19px;
+}
+.blog-section .blog h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+  margin-bottom: 48px;
+}
+.blog-section .blog .blogs {
+  display: flex;
+  gap: 32px;
+}
+.blog-section .blog .blogs .blog-overview {
+  display: flex;
+}
+.blog-section .blog .blogs .blog-overview .rightpart-blog {
+  background-color: white;
+  padding: 32px;
+}
+.blog-section .blog .blogs .blog-overview .rightpart-blog div p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #232536;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+.blog-section .blog .blogs .blog-overview .rightpart-blog div h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #232536;
+  margin-bottom: 24px;
+}
+.blog-section .blog .blogs .blog-overview .rightpart-blog div a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444cfc;
+  opacity: 0.87;
+  text-decoration: none;
+  margin-right: 12px;
+}
+
 footer .leftpart {
   padding-bottom: 64px;
+  padding-top: 96px;
 }
 footer .leftpart img {
   margin-bottom: 32px;

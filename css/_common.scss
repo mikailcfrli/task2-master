@@ -9,4 +9,37 @@
   margin-left: auto;
   margin-right: auto;
 }
-
+header {
+  background-color: $backgroud-hero;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  .logo {
+    width: 122px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      gap: 32px;
+      & a {
+        text-decoration: none;
+        font-family: $main-font;
+        color: #ffffff99;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        &:hover {
+          color: #ffffff;
+        }
+      }
+      div {
+        a {
+          color: #ffd3af;
+        }
+      }
+    }
+  }
+}

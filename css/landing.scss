@@ -1,38 +1,5 @@
 @import "common";
-header {
-  background-color: $backgroud-hero;
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  .logo {
-    width: 122px;
-  }
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 28px;
-    padding-bottom: 28px;
-    .navigation {
-      display: flex;
-      justify-content: space-between;
-      gap: 32px;
-      & a {
-        text-decoration: none;
-        font-family: $main-font;
-        color: #ffffff99;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        &:hover {
-          color: #ffffff;
-        }
-      }
-      div {
-        a {
-          color: #ffd3af;
-        }
-      }
-    }
-  }
-}
+
 .hero-section {
   background-color: $backgroud-hero;
   .hero-box {
@@ -470,9 +437,71 @@ button {
     }
   }
 }
+.blog-section {
+  background-color: $backgroud-softblue;
+  .blog {
+    padding: 96px 0;
+    img.blueicon {
+        margin-bottom: 19px;
+    }
+    h2 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 58px;
+      color: $backgroud-hero;
+      margin-bottom: 48px;
+    }
+    .blogs {
+      display: flex;
+      gap: 32px;
+      .blog-overview {
+        display: flex;
+        .rightpart-blog {
+          background-color: white;
+          padding: 32px;
+          div {
+            p {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 20px;
+              color: #232536;
+              opacity: 0.6;
+              margin-bottom: 8px;
+            }
+            h4 {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 36px;
+              color: #232536;
+              margin-bottom: 24px;
+            }
+            a {
+              font-family: "Poppins";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+              color: #444cfc;
+              opacity: 0.87;
+              text-decoration: none;
+              margin-right: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 footer {
   .leftpart {
     padding-bottom: 64px;
+    padding-top: 96px;
     img {
       margin-bottom: 32px;
     }
