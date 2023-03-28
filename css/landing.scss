@@ -321,7 +321,7 @@
     }
   }
 }
-button {
+button.frstbutton {
   font-family: $main-font;
   font-style: normal;
   font-weight: 500;
@@ -437,12 +437,107 @@ button {
     }
   }
 }
+.purple-section {
+  background-color: $backgroud-purple;
+  .costumers-love {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+    .left-love {
+      padding-top: 6px;
+      padding-bottom: 23px;
+      width: 38.43%;
+      img.shapee {
+        margin-bottom: 16px;
+      }
+      h2 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        color: $backgroud-hero;
+      }
+      .p-large {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: $backgroud-hero;
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+      .p-small {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $backgroud-hero;
+        opacity: 0.87;
+        margin-bottom: 24px;
+      }
+    }
+    .right-love {
+      width: 48.75%;
+      .white-box {
+        background-color: #ffffff;
+        margin-top: 19px;
+        position: relative;
+        h4 {
+          padding-top: 48px;
+          padding-left: 57px;
+          padding-right: 69px;
+          font-family: "Poppins";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 36px;
+          color: #232536;
+          opacity: 0.87;
+        }
+        img.andro {
+          padding-left: 57px;
+          margin-top: 24px;
+          padding-bottom: 42px;
+        }
+        img.left-shape {
+          position: absolute;
+          left: 0;
+        }
+        img.quote {
+          position: absolute;
+          right: 40px;
+          top: -19px;
+        }
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 25px;
+        button {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: $backgroud-hero;
+          opacity: 0.2;
+        }
+        #first-one {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
 .blog-section {
   background-color: $backgroud-softblue;
   .blog {
     padding: 96px 0;
     img.blueicon {
-        margin-bottom: 19px;
+      margin-bottom: 19px;
     }
     h2 {
       font-family: "Poppins";
@@ -559,7 +654,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 42px;
-}
+  }
   .socials {
     display: flex;
     gap: 26.68px;

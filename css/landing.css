@@ -365,7 +365,7 @@ header .navbar .navigation div a {
   text-decoration: none;
 }
 
-button {
+button.frstbutton {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -378,12 +378,12 @@ button {
   position: relative;
   border: #444CFC;
 }
-button .cornersvg {
+button.frstbutton .cornersvg {
   position: absolute;
   left: 0;
   top: 0;
 }
-button .icon {
+button.frstbutton .icon {
   padding-left: 9px;
 }
 
@@ -478,6 +478,102 @@ button .icon {
   padding-bottom: 28px;
   margin-bottom: 0;
   padding-right: 11px;
+}
+
+.purple-section {
+  background-color: #F9F9FF;
+}
+.purple-section .costumers-love {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+.purple-section .costumers-love .left-love {
+  padding-top: 6px;
+  padding-bottom: 23px;
+  width: 38.43%;
+}
+.purple-section .costumers-love .left-love img.shapee {
+  margin-bottom: 16px;
+}
+.purple-section .costumers-love .left-love h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+}
+.purple-section .costumers-love .left-love .p-large {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #232536;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.purple-section .costumers-love .left-love .p-small {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.87;
+  margin-bottom: 24px;
+}
+.purple-section .costumers-love .right-love {
+  width: 48.75%;
+}
+.purple-section .costumers-love .right-love .white-box {
+  background-color: #ffffff;
+  margin-top: 19px;
+  position: relative;
+}
+.purple-section .costumers-love .right-love .white-box h4 {
+  padding-top: 48px;
+  padding-left: 57px;
+  padding-right: 69px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #232536;
+  opacity: 0.87;
+}
+.purple-section .costumers-love .right-love .white-box img.andro {
+  padding-left: 57px;
+  margin-top: 24px;
+  padding-bottom: 42px;
+}
+.purple-section .costumers-love .right-love .white-box img.left-shape {
+  position: absolute;
+  left: 0;
+}
+.purple-section .costumers-love .right-love .white-box img.quote {
+  position: absolute;
+  right: 40px;
+  top: -19px;
+}
+.purple-section .costumers-love .right-love .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+.purple-section .costumers-love .right-love .buttons button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #232536;
+  opacity: 0.2;
+}
+.purple-section .costumers-love .right-love .buttons #first-one {
+  opacity: 1;
 }
 
 .blog-section {
