@@ -94,7 +94,6 @@ header .navbar .navigation div a {
 }
 .hero-section .hero-box .heroimgbox .shapes2 {
   position: absolute;
-  left: 0;
   bottom: 0;
 }
 .hero-section .hero-box .heroimgbox .shapes1 {
@@ -377,6 +376,7 @@ button.frstbutton {
   padding: 20px 32px;
   position: relative;
   border: #444CFC;
+  cursor: pointer;
 }
 button.frstbutton .cornersvg {
   position: absolute;
@@ -571,6 +571,7 @@ button.frstbutton .icon {
   border-radius: 50%;
   background: #232536;
   opacity: 0.2;
+  cursor: pointer;
 }
 .purple-section .costumers-love .right-love .buttons #first-one {
   opacity: 1;
@@ -700,4 +701,58 @@ footer .leftpart div.aline {
 .pink-footer .socials {
   display: flex;
   gap: 26.68px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  header .navbar .navigation {
+    display: none;
+  }
+  .hero-section .hero-box {
+    flex-direction: column-reverse;
+    padding-top: 30px;
+  }
+  .hero-section .hero-box .heroimgbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-section .hero-box .heroimgbox .shapes1 {
+    display: none;
+  }
+  .hero-section .hero-box .heroimgbox .frstimg {
+    width: 300px;
+  }
+  .hero-section .hero-box .leftbox {
+    width: 80%;
+  }
+  .hero-section .hero-box .leftbox .leftup h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .hero-section .hero-box .leftbox .leftup p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .hero-section button.frstbutton {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 16px 26px;
+  }
+  .hero-section .clients-box {
+    flex-direction: column;
+  }
+  .hero-section .clients-box img {
+    width: 280px;
+  }
+  .hero-section .clients-box .clients div:first-child {
+    font-size: 7px;
+    line-height: 10px;
+  }
+  .hero-section .clients-box .clients div:last-child {
+    font-size: 9px;
+    line-height: 13px;
+  }
+  .flex-spacebetween {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=landing.css.map */

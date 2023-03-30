@@ -48,7 +48,6 @@
       }
       .shapes2 {
         position: absolute;
-        left: 0;
         bottom: 0;
       }
       .shapes1 {
@@ -333,6 +332,7 @@ button.frstbutton {
   padding: 20px 32px;
   position: relative;
   border: $backgroud-blue;
+  cursor: pointer;
   .cornersvg {
     position: absolute;
     left: 0;
@@ -524,6 +524,7 @@ button.frstbutton {
           border-radius: 50%;
           background: $backgroud-hero;
           opacity: 0.2;
+          cursor: pointer;
         }
         #first-one {
           opacity: 1;
@@ -658,5 +659,64 @@ footer {
   .socials {
     display: flex;
     gap: 26.68px;
+  }
+}
+@media (min-width: 320px) and (max-width: 500px) {
+  header .navbar .navigation {
+    display: none;
+  }
+  .hero-section {
+    .hero-box {
+      flex-direction: column-reverse;
+      padding-top: 30px;
+      .heroimgbox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .shapes1 {
+          display: none;
+        }
+        .frstimg {
+          width: 300px;
+        }
+      }
+      .leftbox {
+        width: 80%;
+        .leftup {
+          h1 {
+            font-size: 25px;
+            line-height: 30px;
+          }
+          p {
+            font-size: 10px;
+            line-height: 15px;
+          }
+        }
+      }
+    }
+    button.frstbutton {
+      font-size: 10px;
+      line-height: 20px;
+      padding: 16px 26px;
+    }
+    .clients-box {
+      flex-direction: column;
+      img {
+        width: 280px;
+      }
+      .clients {
+        div:first-child {
+          font-size: 7px;
+          line-height: 10px;
+        }
+        div:last-child {
+          font-size: 9px;
+          line-height: 13px;
+        }
+      }
+    }
+  }
+  .flex-spacebetween {
+    flex-direction: column;
   }
 }
