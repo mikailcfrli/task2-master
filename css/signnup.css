@@ -48,4 +48,9 @@ body {
   button[type="submit"]:hover {
     background-color: #666DFF;
   }
+  @media (min-width: 320px) and (max-width: 1000px) {
+    form {
+      width: 80%;
+    }
+  }
   

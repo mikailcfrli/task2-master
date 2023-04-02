@@ -719,4 +719,62 @@ footer {
   .flex-spacebetween {
     flex-direction: column;
   }
+  .expertise-section {
+    h2 {
+      font-size: 38px;
+      line-height: 50px;
+    }
+    .expertise {
+      flex-direction: column;
+      .right-differences {
+        div {
+          width: 100%;
+        }
+        .difference {
+          .margpad {
+            img {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .brown .services-header {
+    width: 100%;
+  }
+  .process-section .process-div .grid-section {
+    display: flex;
+    flex-direction: column;
+    .shapeup, .shapeunder {
+      display: none;
+    }
+  }
+  .process-section .process-div img.lines {
+    display: none;
+  }
+  .purple-section .costumers-love {
+    flex-direction: column;
+    .left-love, .right-love {
+      width: 100%;
+    }
+    .right-love .white-box img.andro {
+      width: 88%;
+    }
+  }
+  .blog-section .blog .blogs {
+    flex-direction: column;
+    .blog-overview {
+      flex-direction: column;
+      div img:first-child {
+        width: 100%;
+      }
+    }
+  }
+  footer .leftpart h2 {
+    width: 100%;
+  }
+  .about-us .iphone5s {
+    width: 100%;
+  }
 }

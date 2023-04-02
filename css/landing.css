@@ -755,4 +755,54 @@ footer .leftpart div.aline {
   .flex-spacebetween {
     flex-direction: column;
   }
+  .expertise-section h2 {
+    font-size: 38px;
+    line-height: 50px;
+  }
+  .expertise-section .expertise {
+    flex-direction: column;
+  }
+  .expertise-section .expertise .right-differences div {
+    width: 100%;
+  }
+  .expertise-section .expertise .right-differences .difference .margpad img {
+    display: none;
+  }
+  .brown .services-header {
+    width: 100%;
+  }
+  .process-section .process-div .grid-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .process-section .process-div .grid-section .shapeup, .process-section .process-div .grid-section .shapeunder {
+    display: none;
+  }
+  .process-section .process-div img.lines {
+    display: none;
+  }
+  .purple-section .costumers-love {
+    flex-direction: column;
+  }
+  .purple-section .costumers-love .left-love, .purple-section .costumers-love .right-love {
+    width: 100%;
+  }
+  .purple-section .costumers-love .right-love .white-box img.andro {
+    width: 88%;
+  }
+  .blog-section .blog .blogs {
+    flex-direction: column;
+  }
+  .blog-section .blog .blogs .blog-overview {
+    flex-direction: column;
+  }
+  .blog-section .blog .blogs .blog-overview div img:first-child {
+    width: 100%;
+  }
+  footer .leftpart h2 {
+    width: 100%;
+  }
+  .about-us .iphone5s {
+    width: 100%;
+  }
 }/*# sourceMappingURL=landing.css.map */

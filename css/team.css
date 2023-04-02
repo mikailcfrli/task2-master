@@ -222,4 +222,28 @@ footer .leftpart div.aline {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  header .navbar .navigation {
+    display: none;
+  }
+  .blog-section .blog .blogs {
+    flex-direction: column;
+  }
+  .blog-section .blog .blogs .blog-overview {
+    flex-direction: column;
+  }
+  .blog-section .blog .blogs .blog-overview div img:first-child {
+    width: 100%;
+  }
+  footer .leftpart h2 {
+    width: 100%;
+  }
+  .pink-footer .flex-spacebetween {
+    flex-direction: column;
+  }
+  .hero-section .hero-div {
+    width: 80%;
+  }
 }/*# sourceMappingURL=team.css.map */

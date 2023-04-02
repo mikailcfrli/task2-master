@@ -180,3 +180,26 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
+  @media (min-width: 320px) and (max-width: 500px) {
+    header .navbar .navigation {
+      display: none;
+    }
+    .blog-section .blog .blogs {
+      flex-direction: column;
+      .blog-overview {
+        flex-direction: column;
+        div img:first-child {
+          width: 100%;
+        }
+      }
+    }
+    footer .leftpart h2 {
+      width: 100%;
+    }
+    .pink-footer .flex-spacebetween {
+      flex-direction: column;
+    }
+    .hero-section .hero-div {
+      width: 80%;
+    }
+  }
