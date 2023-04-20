@@ -805,4 +805,10 @@ footer .leftpart div.aline {
   .about-us .iphone5s {
     width: 100%;
   }
+  .needtextalign {
+    text-align: center;
+  }
+  .lasttouch {
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=landing.css.map */

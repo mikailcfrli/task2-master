@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/svg" href="./assets/faviconn.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,18 +12,49 @@
       rel="stylesheet"
     />
     <title>Finsweet</title>
-    <link rel="stylesheet" href="./css/loggin.css">
-</head>
-<body>
-     <form>
+    <link rel="stylesheet" href="./css/loggin.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <div class="logo"><img src="./assets/Logo.svg" alt="" /></div>
+        <div class="navigation">
+          <a href="">Home</a>
+          <a href="">Service</a>
+          <a href="">Company</a>
+          <a href="">Career</a>
+          <a href="">Blog</a>
+          <a href="">Contact us</a>
+          <div>
+            <a href="">Clone project</a> <img src="./assets/Icon.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <form>
       <h2>Login</h2>
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" >
+      <input type="email" id="email" name="email" />
       <div id="error-message"></div>
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password">
+      <input type="password" id="password" name="password" />
       <button type="submit" id="submit">Sign In</button>
     </form>
-</body>
-<script src="./main.js"></script>
+    <footer>
+      <div class="pink-footer">
+        <div class="container flex-spacebetween">
+          <div class="flex-spacebetween bottom-logos">
+            <img src="./assets/Logofoot.svg" alt="" />
+            <img src="./assets/©2021 Finsweet.svg" alt="" />
+          </div>
+          <div class="socials">
+            <img src="./assets/Negative.svg" alt="" />
+            <img src="./assets/Vector.svg" alt="" /><img
+              src="./assets/Group.svg"
+              alt=""
+            /><img src="./assets/Group (2).svg" alt="" />
+          </div>
+    </footer>
+  </body>
+  <script src="./main.js"></script>
 </html>

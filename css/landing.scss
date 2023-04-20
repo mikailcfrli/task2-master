@@ -661,6 +661,7 @@ footer {
     gap: 26.68px;
   }
 }
+
 @media (min-width: 320px) and (max-width: 500px) {
   header .navbar .navigation {
     display: none;
@@ -776,5 +777,11 @@ footer {
   }
   .about-us .iphone5s {
     width: 100%;
+  }
+  .needtextalign {
+    text-align: center;
+  }
+  .lasttouch {
+    margin-top: 50px;
   }
 }

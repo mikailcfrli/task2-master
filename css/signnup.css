@@ -1,14 +1,63 @@
+html {
+  height: 100%;
+}
 body {
+    height: 100%;
     background-color: #E5E5E5;
     font-family: 'Poppins', sans-serif;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  header {
+    background-color: #232536;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  header .logo {
+    width: 122px;
+  }
+  header .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  header .navbar .navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  header .navbar .navigation a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  header .navbar .navigation a:hover {
+    color: #ffffff;
+  }
+  header .navbar .navigation div a {
+    color: #ffd3af;
   }
   
   form {
     background-color: #ffffff;
     width: 28%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
+    margin: auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 2px 10px #888888;
@@ -48,9 +97,41 @@ body {
   button[type="submit"]:hover {
     background-color: #666DFF;
   }
+
+  .pink-footer {
+    background-color: #FFE6D2;
+    
+  }
+  .pink-footer .bottom-logos {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+  }
+  .pink-footer .socials {
+    display: flex;
+    gap: 26.68px;
+  }
+  .flex-spacebetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   @media (min-width: 320px) and (max-width: 1000px) {
     form {
       width: 80%;
+    }
+    header .navbar .navigation {
+      display: none;
+    }
+    .flex-spacebetween {
+      flex-direction: column;
+    }
+    .pink-footer .socials {
+      padding-bottom: 20px;
     }
   }
   
